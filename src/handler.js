@@ -7,7 +7,7 @@ const addBooksHandler = (request,h) => {
 
     const id = nanoid(16)
     const insertedAt = new Date().toISOString()
-    const updateAt = createdAt
+    const updateAt = insertedAt
     const finished = false
 
     const addBooks = {
